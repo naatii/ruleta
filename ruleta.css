@@ -1,0 +1,61 @@
+body{
+    background: url(https://img.freepik.com/vector-gratis/concepto-gran-ganancia-slot-estilo-realista_52683-8401.jpg?w=2000) no-repeat;
+    background-size: cover;
+}
+.contenedor {
+    margin: auto;
+    width: 400px;
+}
+
+.imagenes {
+    padding: 10px;
+    border: 1px solid black;
+    /* Bordes redondeados. */
+    border-radius: 30px;
+    width: 370px;
+    text-align: center;
+    /* Sombra. */
+    /*box-shadow: 2px 2px 5px #66CCFF inset;*/
+}
+
+img {
+    margin: 8px;
+    border: 1px solid yellow;
+    /* Sombra. */
+    box-shadow: 2px 2px 5px #66CCFF;
+    height: 70px;
+}
+
+.botones {
+    width: 370px;
+    text-align: center;
+}
+
+.boton {
+    /* Para que los bloques no ocupen todo el ancho. */
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    /* Usamos la fuente cargada de google fonts. */
+    font-family: 'Arial black', cursive;
+    color: white;
+    font-size: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 5px #999;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton:hover {
+    /* Al pasar por encima del bot�n cambia el color de la sombra. */
+    box-shadow: 2px 2px 5px #333;    
+}
+.premios{
+    background-color: blue;
+    border: blue solid 1px;
+    margin-top: 1em;
+    color: white;
+}

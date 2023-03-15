@@ -1,0 +1,28 @@
+<!doctype html5>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>La ruleta del aprobado</title>
+        <!-- Carga la fuente desde google.
+             Para usar otra fuente http://www.google.com/fonts -->
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <link href='ruleta.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body onload="cambiaSombras();">
+        <div class="contenedor">
+            <div class="imagenes">
+                <img id="imag3" src="platano.jpg">
+                <img id="imag2" src="corona.jpg">
+                <img id="imag1" src="vacuna.jpg">
+                <img id="imag0" src="manzana.png">
+            </div>
+            <div class="botones">
+                <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
+                <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
+                <div class="boton" id="parar" onclick="paraRuleta2();">Parar 2</div>
+                <div class="boton" id="parar" onclick="paraRuleta4();">Parar 4</div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
