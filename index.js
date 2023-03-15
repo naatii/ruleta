@@ -170,12 +170,12 @@ function comprobarImagenes(){
     }
     
 }
-var puntos = 0
-var iguales1 = 100
-var iguales2 = 200
-var iguales3 = 300
-var iguales4 = 400
 function premios(){
+    var puntos = 0
+    var iguales1 = 100
+    var iguales2 = 200
+    var iguales3 = 300
+    var iguales4 = 400
     if(imagenesIguales[0]===imagenes[0]){
         puntos=iguales1
         alert("Puntos = "+puntos)
